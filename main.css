@@ -23,12 +23,13 @@ header{
 	float:left;
 	margin-top: 40px;
 	margin-left: 10px;
-	width: 18%;
+	width: 25%;
 	height: 30px;
 	position: relative;
 	border-top-left-radius: 3px; 
 	border-bottom-left-radius: 3px; 
 	border: 1px solid #878382;
+	background:   #F9F8F6;
 
 }
 
@@ -82,3 +83,13 @@ header{
 	border-radius: 3px;
 }
 
+.cart {
+	float: right;
+	position: relative;
+
+}
+
+.cart-pic {
+	display: block;
+	font-size: 1.5em;
+}
