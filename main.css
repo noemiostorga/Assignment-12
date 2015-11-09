@@ -1,0 +1,84 @@
+/*********************
+HEADER
+**********************/
+
+
+
+header{
+	 color: rgba(242,80,0);
+	margin: 0px 100px;
+}
+
+
+#etsy{
+	color: #F25000;
+	position: relative;
+	float: left;
+	font-weight: lighter;
+	font-size: 3em;
+
+}
+
+.searchBar{
+	float:left;
+	margin-top: 40px;
+	margin-left: 10px;
+	width: 18%;
+	height: 30px;
+	position: relative;
+	border-top-left-radius: 3px; 
+	border-bottom-left-radius: 3px; 
+	border: 1px solid #878382;
+
+}
+
+.searchBtn{
+	border: none;
+	color: white;
+	background: rgb(38, 148, 181);
+	font-size: 1em;
+	font-weight: bold;
+	position: relative;
+	top: 40px;
+	right: 2px;
+	padding: .5em .9em;
+	border-top-right-radius: 3px; 
+	border-bottom-right-radius: 3px; 
+}
+
+
+.shopping {
+	float: right;
+	list-style: none;
+	position: relative;
+	top: 20px;
+	width: 35%;
+}
+
+
+.shopping li {
+	display: inline;
+	font-size: 1em;
+	padding-left: 15px; 
+
+}
+
+.shopping a {
+	text-decoration: none;
+	color: rgb(38, 148, 181);
+
+}
+
+.shopping a:hover {
+	text-decoration: underline;
+}
+
+#signIn{
+	border:1px solid #2694B5;
+	background: transparent;
+	color:  #2694B5;
+	font-size: 1em;
+	padding: 3%;
+	border-radius: 3px;
+}
+
