@@ -183,22 +183,34 @@ BODY GENERAL
 
 .content {
 	margin: 30px 100px;
-	width: 80%;
-	height: 900px; 
+	padding-top: 15px;
+	width: 80%; 
 	position: relative;
 	background: rgba(100,100,255, .4);
 	
 }
 
+.content span {
+	font-weight: bold;
+	position: relative;
+	bottom: 5px;
+	color: darkgrey;
+}
 
 
 .catList {
 	width: 25%;
-    height: 800px;
     border-radius: 2px;
     background: rgba(200, 0, 0,.4);
     padding: 18px;
+    font-weight: bold;
 }
+
+
+
+
+ul.catLi{
+	list-style: none;
 }
 
 .catLi li{
