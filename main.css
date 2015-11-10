@@ -165,7 +165,7 @@ HEADER: NAV;
 
 
 /*********************
-BODY 
+BODY GENERAL
 **********************/
 
 
@@ -182,20 +182,32 @@ BODY
 
 
 .content {
-	margin: 50px 100px;
+	margin: 30px 100px;
 	width: 80%;
 	height: 900px; 
 	position: relative;
-	background: blue;
+	background: rgba(100,100,255, .4);
 	
 }
 
 
-.red {
+
+.catList {
 	width: 25%;
-	height: 800px;
-	position: relative;
-	background: red;
+    height: 800px;
+    border-radius: 2px;
+    background: rgba(200, 0, 0,.4);
+    padding: 18px;
+}
+}
+
+.catLi li{
+	list-style: none;
+}
+
+.catLi a{
+	text-decoration: none;
+	color: #2694B5;
 }
 
 
