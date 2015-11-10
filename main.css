@@ -3,8 +3,10 @@ HEADER
 **********************/
 
 header{
-	 color: rgba(242,80,0);
-	margin: 0px 100px;
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	margin: -35px 100px;
 	font-family: sans-serif;
 }
 
@@ -119,4 +121,6 @@ HEADER: SHOPPING
 	text-decoration: none;
 }
 
-
+/*************
+HEADER: NAV;
+**************/
