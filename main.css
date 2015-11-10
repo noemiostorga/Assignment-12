@@ -26,6 +26,7 @@ header{
 
 }
 
+
 .searchBar{
 	float:left;
 	margin-top: 40px;
@@ -35,8 +36,8 @@ header{
 	position: relative;
 	border-top-left-radius: 3px; 
 	border-bottom-left-radius: 3px; 
-	border: 1px solid #878382;
-	background:   #F9F8F6;
+	border: 1px solid #C4C0BC;
+	background:   #F3F3ED;
 
 }
 
@@ -139,8 +140,6 @@ HEADER: NAV;
 	color: grey;
 	padding: 10px;
 	font-family: sans-serif;
-
-
 }
 
 #header-nav li {
