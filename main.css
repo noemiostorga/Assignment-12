@@ -1,3 +1,8 @@
+body{
+	margin: 0 auto;
+}
+
+
 /*********************
 HEADER
 **********************/
@@ -124,3 +129,42 @@ HEADER: SHOPPING
 /*************
 HEADER: NAV;
 **************/
+
+
+
+#header-nav ul{
+	list-style: none;
+	border-top:1px solid lightgrey; 
+	border-bottom:1px solid lightgrey; 
+	color: grey;
+	padding: 10px;
+	font-family: sans-serif;
+
+
+}
+
+#header-nav li {
+	display: inline-block;
+	padding: 5px;
+	font-size: 1em;
+	position: relative;
+	left: 85px;
+
+	
+}
+
+#header-nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+#header-nav a:hover {
+	color: black;
+}
+
+
+
+
+
+
+
