@@ -92,6 +92,7 @@ HEADER: SHOPPING
 	font-size: 1em;
 	padding: 3%;
 	border-radius: 3px;
+	cursor: pointer;
 }
 
 #signIn:hover {
@@ -171,57 +172,115 @@ BODY GENERAL
 
 
 .mainContainer{
+	box-sizing: border-box;
 	display: inline-block;
 	position: absolute;
 	width: 100%;
-	height: 900px;
+	height: 100%;
 	background: #F3F3ED;
-	margin: -18px auto;
-	border-top: 1px solid #D4D4D0;
+
 }
 
 
 .content {
-	margin: 30px 100px;
-	padding-top: 15px;
-	width: 80%; 
+
+	width: 80%;
+	height: 100%;
+	margin: 30px auto;
 	position: relative;
 	background: rgba(100,100,255, .4);
 	
 }
+/*********************
+PANEL
+**********************/
 
 .content span {
+	padding: 5px;
 	font-weight: bold;
 	position: relative;
 	bottom: 5px;
 	color: darkgrey;
 }
 
-
-.catList {
+ul.panels {
+	margin: 0px;
+	padding: 0px;
 	width: 25%;
-    border-radius: 2px;
-    background: rgba(200, 0, 0,.4);
-    padding: 18px;
-    font-weight: bold;
 }
 
+.panels{
+	float:left;
+	position: relative;
+}
 
-
-
-ul.catLi{
+.info {
+	padding-bottom: 5px;
 	list-style: none;
 }
 
-.catLi li{
+.allCat {
+	width: 100%;
+	background:red;
+	position: relative;
+}
+
+
+.allCat li {
 	list-style: none;
 }
 
-.catLi a{
+.allCat li a {
 	text-decoration: none;
-	color: #2694B5;
 }
 
+/*panel2*/
 
+.panel_two{
+	position: relative;
+	top: 20px;
+}
+
+.allCust {
+	width: 100%;
+	background:red;
+	position: relative;
+
+
+}
+
+.allCust li{
+	list-style: none;
+
+}
+
+.custLi {
+	position: relative;
+	right: 40px;
+	width: 100%;
+	display: block;
+	
+}
+
+.custLi input {
+
+	float: left;
+}
+.custLi label {
+	
+
+}
+
+.price{
+	display:block;
+	width: 100%;
+	position: relative;
+	top:10px;
+}
+
+.price li {
+	display: inline;
+	position: relative;
+}
 
 
